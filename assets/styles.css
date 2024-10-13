@@ -54,6 +54,16 @@ h1 {
   color: #f00;
   border-bottom: 2px solid #000;
 }
+
+nav {
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 2px 2px #3a3a3a;
+  padding: 0 1rem;
+  display: none;
+}
 main {
   background-color: lightgray;
   flex: 1 0 auto;
