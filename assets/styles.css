@@ -21,6 +21,11 @@ header {
   color: white;
   flex-basis: 45px;
 }
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
 
 main {
   background-color: lightgray;
