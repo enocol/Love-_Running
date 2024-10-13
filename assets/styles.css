@@ -7,7 +7,6 @@
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
-  list-style-type: none;
 }
 
 body {
@@ -41,6 +40,20 @@ h1 {
   color: #252525;
 }
 
+#menu {
+  letter-spacing: 5px;
+  font-size: 1.2rem;
+  list-style-type: none;
+}
+
+#menu li {
+  margin-bottom: 1rem;
+}
+
+.active {
+  color: #f00;
+  border-bottom: 2px solid #000;
+}
 main {
   background-color: lightgray;
   flex: 1 0 auto;
