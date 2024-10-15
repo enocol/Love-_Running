@@ -27,6 +27,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-height: 100px;
 }
 
 #nav-toggle:checked ~ nav {
@@ -38,7 +39,7 @@ header {
 }
 
 .nav-toggle-label {
-  font-size: 3em;
+  font-size: 1.5rem;
 }
 
 header a {
@@ -52,6 +53,7 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #252525;
+  font-size: 150%;
 }
 
 #menu {
@@ -85,7 +87,7 @@ nav {
 
 main {
   flex: 1 0 auto;
-  margin-top: 4rem;
+  margin-top: 3.5rem;
 }
 
 footer {
@@ -100,5 +102,37 @@ footer {
   }
   to {
     opacity: 1;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    display: block;
+    align-items: baseline;
+    position: relative;
+    background-color: transparent;
+    box-shadow: none;
+    width: auto;
+    padding: 0;
+  }
+
+  #menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .nav-toggle-label {
+    display: none;
+  }
+
+  #menu li :hover {
+    color: #f00;
+    border-bottom: 2px solid #000;
+  }
+
+  #menu li {
+    padding-top: 0.5rem;
   }
 }
