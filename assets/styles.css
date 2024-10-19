@@ -115,6 +115,68 @@ main {
   color: #fff;
 }
 
+#reasons {
+  margin: 20px auto;
+}
+
+#reasons h2 {
+  text-align: center;
+  font-size: 280%;
+  font-weight: 700;
+  margin: 10px;
+  text-transform: uppercase;
+}
+
+#reasons h3 {
+  font-size: 200%;
+  font-weight: 700;
+}
+
+#benefits {
+  margin: 5px;
+}
+
+#benefits hr {
+  border: 1px solid #000;
+  margin: 5px 0;
+}
+
+#benefits p {
+  padding: 0 20px;
+}
+
+#benefit-physical,
+#benefit-mental {
+  margin-bottom: 10px;
+  padding: 5px;
+  line-height: 1.5;
+}
+
+#circle-cover-bg {
+  background: url("./images/reasons-image.webp") no-repeat center center/cover;
+  height: 90vw;
+  width: 90vw;
+  margin: 20px auto;
+  border-radius: 50%;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+#benefit-physical,
+#benefit-mental {
+  display: flex;
+  flex-direction: column;
+  margin: 0 40px;
+}
+
+#benefit-physical {
+  width: 75%; /* 75% of the parent container */
+}
+
+#benefit-mental {
+  width: 75%;
+}
+
 footer {
   background-color: #fff;
   padding: 10px;
@@ -172,6 +234,21 @@ footer .social-links i {
 
   #menu li {
     padding-top: 0.5rem;
+  }
+
+  #benefits {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #benefit-physical {
+    align-self: flex-start;
+    text-align: start;
+  }
+
+  #benefit-mental {
+    align-self: flex-end;
+    text-align: end;
   }
 
   footer .social-links {
