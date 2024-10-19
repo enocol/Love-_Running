@@ -96,6 +96,23 @@ main {
     center/cover;
   height: 600px;
   width: 100%;
+  position: relative;
+}
+
+.cover-text {
+  background-color: rgba(255, 100, 0, 0.5);
+  width: 70%;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  border-radius: 5px;
+  min-height: 100px;
+  left: 10px;
+}
+
+.cover-text > h2,
+.cover-text > h3 {
+  color: #fff;
 }
 
 footer {
@@ -159,5 +176,12 @@ footer .social-links i {
 
   footer .social-links {
     justify-content: space-around;
+  }
+
+  .cover-text {
+    width: 200px;
+    right: 10px;
+    left: auto;
+    bottom: 0;
   }
 }
