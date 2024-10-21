@@ -215,9 +215,13 @@ main {
 
 /* galery  */
 
+#galery {
+  line-height: 0;
+}
+
 #galery img {
   width: 100%;
-  height: auto;
+  line-height: 0;
 }
 
 footer {
@@ -322,6 +326,11 @@ footer .social-links i {
 
   #times div {
     border-right: 2px solid #fafafa;
+  }
+
+  #galery {
+    column-count: 4;
+    column-gap: 0;
   }
 }
 
