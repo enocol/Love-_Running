@@ -212,6 +212,14 @@ main {
 .hinding {
   display: none;
 }
+
+/* galery  */
+
+#galery img {
+  width: 100%;
+  height: auto;
+}
+
 footer {
   background-color: #fff;
   padding: 10px;
@@ -243,6 +251,15 @@ footer .social-links i {
   }
   to {
     opacity: 1;
+  }
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 425px) {
+  #galery {
+    column-count: 2;
+    column-gap: 0;
   }
 }
 
