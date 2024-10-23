@@ -224,6 +224,44 @@ main {
   line-height: 0;
 }
 
+main {
+  background: url("./images/signup-image.webp") no-repeat center center/cover;
+}
+
+#signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 20px auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 5px auto;
+}
+
+label {
+  margin-right: 5px;
+}
+
+.radio-buttons {
+  display: flex;
+
+  gap: 10px;
+}
+
+.radio-buttons div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 0;
+}
+
 footer {
   background-color: #fff;
   padding: 10px;
@@ -256,6 +294,13 @@ footer .social-links i {
   to {
     opacity: 1;
   }
+}
+
+#testpara {
+  height: 20px;
+  border: 2px solid red;
+  height: 100px;
+  line-height: 5px;
 }
 
 /* Media Queries */
