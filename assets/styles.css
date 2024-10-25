@@ -224,16 +224,16 @@ main {
   line-height: 0;
 }
 
-main {
-  background: url("./images/signup-image.webp") no-repeat center center/cover;
-}
-
 #signup {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   margin: 20px auto;
+  background: url("./images/signup-image.webp") no-repeat 75% / cover;
+  background-color: rgba(221, 164, 89, 0.5);
+  width: 100vw;
+  height: 100vh;
 }
 
 form {
