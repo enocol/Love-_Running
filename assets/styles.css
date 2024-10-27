@@ -227,21 +227,56 @@ main {
 #signup {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  margin: 20px auto;
-  background: url("./images/signup-image.webp") no-repeat 75% / cover;
-  background-color: rgba(221, 164, 89, 0.5);
-  width: 100vw;
-  height: 100vh;
+  justify-content: flex-start;
+  align-items: center;
+  background: url("./images/signup-image.webp") no-repeat 80% / cover #fff;
+  width: 100%;
+  line-height: 1;
+  height: 80vh;
+}
+
+#signup h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+  width: 100%;
+}
+
+#signup label {
+  color: #fff;
+  font-weight: 700;
+  width: 80%;
+}
+
+#signup input {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  height: 24px;
+  margin-top: 5px;
+  width: 80%;
+}
+
+.join-button {
+  background-color: #f00;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 0 20px;
+  padding: 10px;
+  width: 80%;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  margin: 5px auto;
+  justify-content: flex-start;
+  align-self: center;
+  width: 80%;
+  padding: 5px;
+  margin-top: 35px;
 }
 
 label {
@@ -250,7 +285,6 @@ label {
 
 .radio-buttons {
   display: flex;
-
   gap: 10px;
 }
 
@@ -309,6 +343,12 @@ footer .social-links i {
   #galery {
     column-count: 2;
     column-gap: 0;
+  }
+
+  form {
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 70%;
   }
 }
 
@@ -377,6 +417,12 @@ footer .social-links i {
     column-count: 4;
     column-gap: 0;
   }
+
+  form {
+    width: 50%;
+    align-self: flex-start;
+    margin-left: 50px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -402,5 +448,10 @@ footer .social-links i {
     order: 1;
     align-self: start;
     margin: 0;
+  }
+
+  form {
+    width: 40%;
+    border: 1px solid #000;
   }
 }
